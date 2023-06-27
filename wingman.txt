@@ -1,0 +1,341 @@
+/*
+  Localizable.strings
+  Wingman
+
+  Created by Jonathan Van den Schrieck on 08/05/2023.
+  Copyright © 2023 iSolid. All rights reserved.
+*/
+
+/* GENERIC */
+"GENERIC_OK" = "OK";
+"GENERIC_CANCEL" = "Cancel";
+"GENERIC_UNKNOWN_LOCATION" = "Unknown location";
+"GENERIC_UNKNOWN" = "Unknown";
+"GENERIC_YES" = "Yes";
+"GENERIC_NO" = "No";
+"GENERIC_CONTINUE" = "Continue";
+"GENERIC_THEN" = "then";
+"GENERIC_CANCEL_ANYTIME" = "Cancel anytime";
+
+/* TABS */
+"TAB_FLY" = "Fly";
+"TAB_FLIGHTBOOK" = "Flightbook";
+"TAB_PREFERENCES" = "Preferences";
+
+/* FLY HOME */
+"FLY_HOME_WELCOME_TO" = "Welcome to";
+"FLY_HOME_SUBTITLE" = "Your Free Flight companion";
+"FLY_HOME_FLY_BUTTON" = "Let's fly!";
+
+/* TRACK */
+"TRACK_FLIGHT" = "Track flight";
+"TRACK_NOT_NOW" = "Not now";
+"TRACK_WEAK_GPS" = "Weak GPS signal";
+
+"TRACK_START_ALERT_TITLE" = "Start recording flight";
+"TRACK_START_ALERT_NOW" = "Now!";
+"TRACK_START_ON_TAKEOFF" = "On take-off detection";
+
+"TRACK_INSTR_DISTANCE" = "distance";
+"TRACK_INSTR_TIME" = "time";
+"TRACK_INSTR_WIND_SPEED" = "wind speed";
+"TRACK_INSTR_WIND_DIR" = "wind direction";
+"TRACK_INSTR_GROUND_SPEED" = "ground speed";
+"TRACK_INSTR_ALTITUDE" = "altitude";
+"TRACK_INSTR_VARIO" = "vario";
+"TRACK_INSTR_GLIDE_RATIO" = "glide ratio";
+
+"TRACK_STOP_ALERT_TITLE" = "End flight?";
+"TRACK_STOP_ALERT_SUBTITLE" = "Do you wish to end your flight?";
+"TRACK_STOP_ALERT_SAVE" = "Save";
+"TRACK_STOP_ALERT_CANCEL" = "Cancel";
+"TRACK_STOP_ALERT_DISCARD" = "Discard";
+"TRACK_DISCARD_ALERT_TITLE" = "Discard flight?";
+"TRACK_DISCARD_ALERT_MSG" = "You'll lose all data about your flight";
+
+"TRACK_SAVING_FLIGHT" = "Saving flight";
+
+"TAKEOFF_CANCEL" = "Cancel flight";
+"TAKEOFF_TRIGGER_MANUALLY" = "Trigger take-off manually";
+"TAKEOFF_SEARCHING_GPS_SIGNAL" = "Searching for GPS signal";
+"TAKEOFF_WAITING_FOR_TAKEOFF" = "Waiting for take-off";
+
+"LANDING_DETECTED_ALERT_TITLE" = "Landing detected";
+"LANDING_DETECTED_ALERT_CONTINUE" = "Continue flying";
+"LANDING_DETECTED_ALERT_CONTINUE_AND_DISABLE" = "Continue flying & disable this";
+"LANDING_DETECTED_ALERT_SAVE" = "Save flight now";
+"LANDING_DETECTED_COUNTDOWN_MSG" = "Flight will stop and be saved in";
+
+/* FLIGHTBOOK */
+"FB_VC_TITLE" = "Flightbook";
+
+// Section headers
+"FB_LIFETIME_SECTION_HEADER" = "Lifetime stats";
+"FB_FLIGHTS_SECTION_HEADER" = "Flights";
+
+// Lifetime stats
+"FB_LIFETIME_FLIGHTS" = "Flights";
+"FB_LIFETIME_MAX_ALTI" = "Max altitude";
+"FB_LIFETIME_FLYTIME" = "Flytime";
+"FB_LIFETIME_UPLIFT" = "Uplift";
+"FB_LIFETIME_DISTANCE" = "Distance";
+"FB_LIFETIME_DOWNLIFT" = "Downlift";
+"FB_LIFETIME_AVG_GROUND_SPEED" = "Avg ground speed";
+"FB_LIFETIME_MAX_GROUND_SPEED" = "Max ground speed";
+
+"FB_SEARCH_FIELD_PLACEHOLDER" = "Search flights";
+"FB_DELETE_FLIGHT_ALERT_TITLE" = "Delete Flight";
+"FB_DELETE_FLIGHT_ALERT_MSG" = "Are you sure you want to permanently delete the flight";
+"FB_DELETE_FLIGHT_DELETE_ACTION" = "Delete";
+"FB_DELETE_FLIGHT_DELETING_FLIGHT" = "Deleting flight...";
+
+/* FLIGHT DETAILS */
+"FD_EMPTY_FLIGHT_ALERT_TITLE" = "Empty flight";
+"FD_EMPTY_FLIGHT_ALERT_MSG" = "Sorry, this flight has no locations saved.\nDid you really fly?";
+
+"FD_EXPORT_MENU_TITLE" = "Export Flight as...";
+"FD_EXPORT_MENU_SOCIAL_MEDIA" = "Summary for social media";
+"FD_EXPORT_MENU_GPX" = ".GPX file";
+"FD_EXPORT_MENU_IGC" = ".IGC file";
+"FD_EXPORT_MENU_CSV" = ".CSV file";
+"FD_EXPORTING_FLIGHT" = "Exporting flight...";
+
+"FD_BASIC_STATS_HEADER" = "Basic stats";
+"FD_VERTICAL_STATS_HEADER" = "Vertical stats";
+"FD_PILOT_STATS_HEADER" = "Pilot stats";
+"FD_EQUIPMENT_HEADER" = "Equipment & Crew";
+"FD_NOTES_HEADER" = "Notes";
+
+// Basic stats
+"FD_TAKEOFF" = "take-off";
+"FD_DURATION" = "duration";
+"FD_MAX_GROUND_SPEED" = "max gnd speed";
+"FD_AVG_GROUND_SPEED" = "avg gnd speed";
+"FD_LANDING_TIME" = "landing";
+"FD_DISTANCE" = "distance";
+"FD_MIN_GROUND_SPEED" = "min gnd speed";
+
+// Vertical stats
+"FD_START_ALTITUDE" = "start altitude";
+"FD_MAX_CLIMB_RATE" = "max climb rate";
+"FD_MAX_ALTITUDE" = "max altitude";
+"FD_UPLIFT" = "uplift";
+"FD_LIFT_START_TO_END" = "start to end";
+"FD_LANDING_ALTITUDE" = "landing altitude";
+"FD_MAX_SINK_RATE" = "max sink rate";
+"FD_MIN_ALTITUDE" = "min altitude";
+"FD_DOWNLIFT" = "downlift";
+
+// Pilot stats
+"FD_MAX_GLIDE_RATIO" = "max glide ratio";
+"FD_AVG_GLIDE_RATIO" = "avg glide ratio";
+"FD_MIN_GLIDE_RATIO" = "min glide ratio";
+
+// Equipment & Crew
+"FD_EQUIPMENT_CREW" = "Crew";
+"FD_EQUIPMENT_GLIDER" = "Glider";
+
+// Flight source (origin)
+"FD_RECORDED_BY_WINGMAN" = "Flight recorded by Wingman";
+"FD_IMPORTED_GPX" = "Flight imported from a GPX file";
+"FD_IMPORTED_IGC" = "Flight imported from an IGC file";
+
+// Share flight button
+"FD_SHARE_FLIGHT_BUTTON" = "Share flight with friends";
+
+/* EQUIPMENT & CREW VC */
+"EC_TITLE" = "Flight crew & gear";
+"EC_DEFAULT_SETTINGS_LABEL" = "Configure the default values for each new recorded flight";
+"EC_PILOT_HEADER" = "Pilot";
+"EC_PILOT_NAME" = "Pilot name";
+"EC_COPILOT_NAME" = "Copilot name (tandem)";
+"EC_COPILOT_PLACEHOLDER" = "None";
+
+"EC_GLIDER_HEADER" = "Glider";
+"EC_MANUFACTURER" = "Manufacturer";
+"EC_MODEL" = "Model";
+"EC_TYPE" = "Type";
+"EC_OTHER_EQUIPMENT" = "Other equipment";
+
+"EC_GLIDER_TYPE_PARAGLIDER" = "Paraglider";
+"EC_GLIDER_TYPE_PARAMOTOR" = "Paramotor";
+"EC_GLIDER_TYPE_HANGGLIDER" = "Hang glider";
+"EC_GLIDER_TYPE_RIGIDWING" = "Rigid wing";
+"EC_GLIDER_TYPE_GLIDER" = "Glider";
+"EC_GLIDER_TYPE_ULTRALIGHTAIRCRAFT" = "Ultra Light Aircraft";
+"EC_GLIDER_TYPE_HOTAIRBALLOON" = "Hot air balloon";
+"EC_GLIDER_TYPE_OTHER" = "Other";
+
+/* CHARTS */
+"CHARTS_VC_TITLE" = "Flight Charts";
+"CHARTS_REQUIRE_IOS16" = "Charts require iOS 16";
+"CHARTS_GROUND_SPEED" = "Ground speed";
+"CHARTS_ALTITUDE" = "Altitude";
+"CHARTS_DROP_RATE" = "Drop rate";
+"CHARTS_GLIDE_RATIO" = "Glide ratio";
+
+/* MAP DETAILS */
+"MAPD_VC_TITLE" = "Flight map";
+"MAPD_HORIZONTAL_SPEED" = "Horizontal speed";
+"MAPD_VERTICAL_SPEED" = "Drop rate";
+
+/* SOCIAL MEDIA EXPORT */
+"SME_VC_TITLE" = "Share flight";
+"SME_ADJUST_MAP" = "Drag/Pinch to adjust the map";
+"SME_MAP_STYLE" = "Map style";
+"SME_SPEED" = "Speed";
+"SME_DESIGN" = "Design";
+"SME_CHANGE_COLOR" = "Change color";
+"SME_CONTINUE_BUTTON" = "Continue";
+"MAP_STYLE_STANDARD" = "Standard";
+"MAP_STYLE_SATELLITE" = "Satellite";
+"MAP_STYLE_HYBRID" = "Hybrid";
+"SPEED_TYPE_HORIZONTAL" = "Horizontal";
+"SPEED_TYPE_VERTICAL" = "Drop rate";
+
+/* PREFERENCES */
+"PREF_VC_TITLE" = "Preferences";
+
+"PREF_CONTACT_HEADER" = "Contact";
+"PREF_CONTACT_LABEL" = "Send me a feedback";
+"PREF_CONTACT_SUBLABEL" = "Feedback helps me to improve the app";
+"PREF_REVIEW_LABEL" = "Leave a nice review";
+"PREF_REVIEW_SUBLABEL" = "Good reviews help me a lot. Please be nice :-)";
+"PREF_SHARE_APP_LABEL" = "Share app";
+"PREF_SHARE_APP_SUBLABEL" = "Send the app to your friends";
+"PREF_TERMS_PRIVACY" = "Terms of use & Privacy policy";
+
+"PREF_INSTR_HEADER" = "Instruments";
+"PREF_INSTR_WIND_LABEL" = "Wind estimator";
+"WIND_HEADING" = "Flight heading";
+"WIND_INSTR_DESCR" = "The wind instrument estimates the wind direction and the wind speed based on your drift during the flight.\nFor the instrument to work properly, make sure your phone is oriented correctly, that is, pointed towards your heading.";
+
+"PREF_INSTR_VARIO_LABEL" = "Vario";
+"VARIO_VC_TITLE" = "Vario";
+"VARIO_CLIMB_HEADER" = "Climb";
+"VARIO_CLIMB_FOOTER" = "The vario will start beeping when your climb rate is above the configured threshold, and will stop beeping when your climb rate goes below the configured threshold";
+"VARIO_CLIMB_RATE_BIP_LABEL" = "Climb rate bip threshold";
+"VARIO_CLIMB_RATE_STOP_LABEL" = "Climb rate stop bip threshold";
+"VARIO_EDIT_VALUE_VC_TITLE" = "Edit vario setting";
+
+"VARIO_SINK_HEADER" = "Sink";
+"VARIO_SINK_FOOTER" = "A sound alarm will be triggered when your sink rate exceeds that threshold";
+"VARIO_SINK_RATE_ALARM_LABEL" = "Sink rate alarm threshold";
+
+"VARIO_SOUND_HEADER" = "Sounds";
+"VARIO_SOUND" = "Vario sounds";
+
+"VARIO_SOUND_FREQ_CONFIG_HEADER" = "Customize the tone of your vario";
+"VARIO_SOUND_FREQ_CONFIG_FOOTER" = "The lowest (highest) frequency is the minimum (maximum) frequency played at low (high) vertical speed. A lower value will give a lower sound.";
+"VARIO_SOUND_LOW_FREQ" = "Lowest frequency";
+"VARIO_SOUND_HIGH_FREQ" = "Highest frequency";
+
+"VARIO_SOUND_CADENCE_CONFIG_HEADER" = "Customize the beep speed of your vario";
+"VARIO_SOUND_CADENCE_CONFIG_FOOTER" = "The low (high) cadence is the minimum (maximum) cadence of the sound at low (high) vertical speed. The value represents the duration for a beep and a pause. A higher value will thus give a slower beep.";
+"VARIO_SOUND_LOW_CADENCE" = "Minimum cadence";
+"VARIO_SOUND_HIGH_CADENCE" = "Maximum cadence";
+
+"VARIO_SOUND_CONFIG_TEST_HEADER" = "Test the vario sound";
+"VARIO_SOUND_CONFIG_TEST_FOOTER" = "Try your customization of the vario (make sure the volume of your phone is high enough)";
+"VARIO_SOUND_CONFIG_TEST_VERTICAL_SPEED" = "Vertical speed";
+"VARIO_CONFIG_TEST_PLAY_SOUND" = "Play sound";
+"VARIO_CONFIG_TEST_STOP_SOUND" = "Stop sound";
+
+"PREF_LANDING_HEADER" = "Landing detection";
+"PREF_LANDING_LABEL" = "Enable landing detection";
+"PREF_LANDING_SUBLABEL" = "Stop & save flight automatically";
+
+"PREF_UNIT_HEADER" = "Units";
+"PREF_UNIT_LABEL" = "Unit system";
+"UNIT_METRIC" = "Metric";
+"UNIT_IMPERIAL" = "Imperial";
+"UNIT_METRIC_DETAIL" = "Metric system (meters, m/s,...)";
+"UNIT_IMPERIAL_DETAIL" = "Imperial system (feet, ft/min,...)";
+"UNIT_VC_TITLE" = "Unit system";
+"UNIT_SECTION_HEADER" = "Unit system to use";
+
+"PREF_PILOT_EQUIP_HEADER" = "Pilot and Equipment";
+"PREF_PILOT_EQUIP" = "Pilot and Equipment";
+"PILOT_EQUIP_VC_TITLE" = "Pilot & Equipment";
+
+"PREF_FOOTER_SUGGESTIONS_WELCOME" = "Suggestions are welcome!";
+
+/* IAP & PAYWALL */
+"IAP_VERIF_ERROR_TITLE" = "Your purchase could not be verified by the App Store";
+"IAP_RESTORE_ERROR_TITLE" = "Could not restore any purchase";
+"IAP_PRO_ENABLED" = "You are using Wingman PRO";
+"IAP_NOTIF_END_TRIAL_TITLE" = "Wingman PRO trial";
+"IAP_NOTIF_END_TRIAL_BODY" = "Your Wingman PRO trial period expires in 1.5 day";
+"PW_FEATURE_LIST_TITLE" = "Tons of benefits";
+"PW_BUTTON_START_TRIAL" = "Start Free Trial";
+"PW_BUTTON_BUY" = "Continue";
+"PW_ALREADY_PURCHASED" = "Already purchased?";
+"PW_RESTORE" = "Restore";
+"PW_RATINGS_TITLE" = "Join other happy pilots";
+"PW_RATINGS_AVG" = "Average Rating Worldwide";
+"PW_3_DAY_TRIAL" = "3-day free trial";
+"PW_SAVE" = "Save";
+"PW_TIMELINE_TITLE" = "How your trial works:";
+"PW_TIMELINE_TODAY" = "Today";
+"PW_TIMELINE_TODAY_SUBTITLE" = "Enjoy Wingman PRO for free. Fly with a great Wingman!";
+"PW_TIMELINE_IN_ONE_DAY" = "In 1.5 days";
+"PW_TIMELINE_IN_ONE_DAY_SUBTITLE" = "Get a reminder about when your free trial ends";
+"PW_TIMELINE_IN_THREE_DAYS" = "In 3 days";
+"PW_TIMELINE_IN_THREE_DAYS_SUBTITLE" = "Get billed, unless you cancel anytime before";
+
+"PW_MINI_TRY_WM_PRO" = "Try Wingman PRO";
+"PW_MINI_SUBTITLE_TRIAL" = "Fly at your maximum potential for free, during 3 days";
+"PW_MINI_SUBTITLE" = "Fly at your maximum potential";
+"PW_MINI_BUTTON_TRIAL" = "Redeem Your 3 Free days";
+"PW_MINI_BUTTON" = "Learn more";
+"PW_MINI_THEN" = "Then";
+"PW_MINI_LEARN_MORE" = "Learn more";
+
+"PW_CHARTS_TITLE" = "Interactive Charts";
+"PW_CHARTS_SUBTITLE" = "Interactive charts help you analyze your flights and improve your piloting.";
+"PW_CHARTS_REQUIRES_PRO" = "Requires Wingman PRO";
+
+"PW_FEATURE_THERMAL_VIEWER" = "Thermal Viewer";
+"PW_FEATURE_VARIO_PRO" = "Vario PRO";
+"PW_FEATURE_INTERACTIVE_CHARTS" = "Interactive Charts";
+"PW_FEATURE_IMPROVE_PILOTING" = "Improve your piloting";
+"PW_FEATURE_MORE_COMFORT" = "More comfort";
+"PW_FEATURE_REVIEW_FLIGHTS" = "Review flights";
+"PW_FEATURE_SHARE" = "Share with friends";
+"PW_FEATURE_UPDATES" = "Enjoy future updates";
+
+/* Marketing */
+"REVIEW_PROMPT_TITLE" = "Like Wingman?";
+"REVIEW_PROMPT_MSG" = "If you enjoy the app, would you help me by leaving a good rating? 🙏🏻";
+"SHARE_APP_TEXT" = "I use this fantastic app called Wingman to track my flights (paragliding / hang gliding / ...). It has super useful flight instruments and a logbook to analyze my flights.";
+
+/* Onboarding */
+"OB_WELCOME_TO" = "Welcome to";
+"OB_WELCOME_IMPROVE" = "Improve your piloting";
+"OB_WELCOME_ENJOY_MORE" = "Enjoy your flights even more";
+"OB_WELCOME_ANALYZE" = "Analyze and relive your flights";
+"OB_WELCOME_USE_OWN_RISKS" = "Use at your own risk";
+"OB_WELCOME_RISK_DESCRIPTION" = "The app instruments are only there to help you during your flights, but use at your own risk. Be smart and careful, common sense should always prevail. Do not entirely rely on the instruments. Technical errors may happen (wrong signal, software/hardware error, ...). By using this app you accept to use it at you own risk. The creator cannot be held responsible for anything that might happen. Fly safe!";
+
+"OB_ONE_MORE_THING" = "One more thing";
+"OB_FLY_QUESTION" = "What will you be flying with?";
+
+"OB_ONE_LAST_THING" = "One last thing";
+"OB_IMPROVE_PREPARATION" = "Improve your preparation";
+"OB_ENABLE_NOTIF_REASON" = "Enable notifications for planning your flights and getting tailored reminders.";
+"OB_ENABLE_NOTIF_BUTTON_TITLE" = "Enable notifications";
+"OB_NO_THANKS_BUTTON_TITLE" = "No thanks";
+"OB_PW_TRIAL_TEXT" = "You have 3 free days of Wingman PRO.";
+"OB_PW_NO_TRIAL_TEXT" = "Fly at your maximum potential with Wingman PRO.";
+"OB_PW_3_DAYS_FREE" = "3 days free";
+
+/* Whats New */
+"WN_WELCOME_TO" = "Welcome to";
+"WN_WHATS_NEW_IN_VERSION" = "What's new in Wingman v";
+"WN_NEW_FEATURES_V2" = "• Thermal Viewer\n• Vario sound customization\n• Share your flights on social media";
+"WN_FEEDBACK_WELCOME_TITLE" = "Feedback is welcome!";
+"WN_FEEDBACK_WELCOME_SUBTITLE" = "I work a lot on the app, and already put quite a lot of features in it. But if you miss something, contact me from within the app (Settings > Contact me), I'd be happy to discuss and add this new feature!";
+"WN_USE_AT_YOUR_OWN_RISK" = "Use at your own risk";
+"WN_RISK_WARNING_DESCRIPTION" = "The app instruments are there to help you during your flights, but use at your own risk. Be smart and careful, common sense should always prevail. Do not entirely rely on the instruments. Technical errors may happen (wrong signal, software/hardware error, ...). By using this app you accept to use it at you own risk. The creator cannot be held responsible for anything that might happen. Be safe!";
+"WN_CONTINUOUS_UPDATES_TITLE" = "Continuous updates";
+"WN_CONTINUOUS_UPDATES_SUBTITLE" = "The app will continuously improve over time, with the help of your feedback";
