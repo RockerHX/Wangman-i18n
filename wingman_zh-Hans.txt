@@ -1,0 +1,341 @@
+/*
+  Localizable.strings
+  Wingman
+
+  Created by Jonathan Van den Schrieck on 08/05/2023.
+  Copyright © 2023 iSolid. All rights reserved.
+*/
+
+/* GENERIC */
+"GENERIC_OK" = "好的";
+"GENERIC_CANCEL" = "取消";
+"GENERIC_UNKNOWN_LOCATION" = "未知定位";
+"GENERIC_UNKNOWN" = "未知";
+"GENERIC_YES" = "可以";
+"GENERIC_NO" = "不用";
+"GENERIC_CONTINUE" = "继续";
+"GENERIC_THEN" = "然后";
+"GENERIC_CANCEL_ANYTIME" = "随时取消";
+
+/* TABS */
+"TAB_FLY" = "起飞";
+"TAB_FLIGHTBOOK" = "飞行日志";
+"TAB_PREFERENCES" = "设置";
+
+/* FLY HOME */
+"FLY_HOME_WELCOME_TO" = "欢迎来到";
+"FLY_HOME_SUBTITLE" = "您的免费飞行搭档";
+"FLY_HOME_FLY_BUTTON" = "准备起飞";
+
+/* TRACK */
+"TRACK_FLIGHT" = "飞行轨迹";
+"TRACK_NOT_NOW" = "暂时不用";
+"TRACK_WEAK_GPS" = "GPS信号较弱";
+
+"TRACK_START_ALERT_TITLE" = "开始记录飞行轨迹";
+"TRACK_START_ALERT_NOW" = "立即开始";
+"TRACK_START_ON_TAKEOFF" = "起飞时自动开始";
+
+"TRACK_INSTR_DISTANCE" = "飞行距离";
+"TRACK_INSTR_TIME" = "飞行时间";
+"TRACK_INSTR_WIND_SPEED" = "风速";
+"TRACK_INSTR_WIND_DIR" = "风向";
+"TRACK_INSTR_GROUND_SPEED" = "地速";
+"TRACK_INSTR_ALTITUDE" = "高度";
+"TRACK_INSTR_VARIO" = "上升";
+"TRACK_INSTR_GLIDE_RATIO" = "滑翔比";
+
+"TRACK_STOP_ALERT_TITLE" = "结束飞行？";
+"TRACK_STOP_ALERT_SUBTITLE" = "需要保存本次飞行日志吗？";
+"TRACK_STOP_ALERT_SAVE" = "保存";
+"TRACK_STOP_ALERT_CANCEL" = "取消";
+"TRACK_STOP_ALERT_DISCARD" = "不需要";
+"TRACK_DISCARD_ALERT_TITLE" = "确定不要保存吗？";
+"TRACK_DISCARD_ALERT_MSG" = "您将丢失本次飞行的所有数据";
+
+"TRACK_SAVING_FLIGHT" = "正在保存飞行数据...";
+
+"TAKEOFF_CANCEL" = "取消飞行";
+"TAKEOFF_TRIGGER_MANUALLY" = "手动起飞";
+"TAKEOFF_SEARCHING_GPS_SIGNAL" = "搜索GPS信号";
+"TAKEOFF_WAITING_FOR_TAKEOFF" = "等待起飞";
+
+"LANDING_DETECTED_ALERT_TITLE" = "检测到降落";
+"LANDING_DETECTED_ALERT_CONTINUE" = "继续飞行";
+"LANDING_DETECTED_ALERT_CONTINUE_AND_DISABLE" = "继续飞行并禁用此功能";
+"LANDING_DETECTED_ALERT_SAVE" = "立即保存飞行数据";
+"LANDING_DETECTED_COUNTDOWN_MSG" = "飞行即将结束并保存数据";
+
+/* FLIGHTBOOK */
+"FB_VC_TITLE" = "飞行日志";
+
+// Section headers
+"FB_LIFETIME_SECTION_HEADER" = "飞行统计";
+"FB_FLIGHTS_SECTION_HEADER" = "飞行历史";
+
+// Lifetime stats
+"FB_LIFETIME_FLIGHTS" = "飞行次数";
+"FB_LIFETIME_MAX_ALTI" = "最高海拔";
+"FB_LIFETIME_FLYTIME" = "飞行时间";
+"FB_LIFETIME_UPLIFT" = "上升高度";
+"FB_LIFETIME_DISTANCE" = "飞行距离";
+"FB_LIFETIME_DOWNLIFT" = "下降高度";
+"FB_LIFETIME_AVG_GROUND_SPEED" = "平均速度";
+"FB_LIFETIME_MAX_GROUND_SPEED" = "最快速度";
+
+"FB_SEARCH_FIELD_PLACEHOLDER" = "搜索飞行历史";
+"FB_DELETE_FLIGHT_ALERT_TITLE" = "删除飞行记录";
+"FB_DELETE_FLIGHT_ALERT_MSG" = "您是否要永久删除本次飞行";
+"FB_DELETE_FLIGHT_DELETE_ACTION" = "删除";
+"FB_DELETE_FLIGHT_DELETING_FLIGHT" = "飞行日志删除中...";
+
+/* FLIGHT DETAILS */
+"FD_EMPTY_FLIGHT_ALERT_TITLE" = "空白飞行";
+"FD_EMPTY_FLIGHT_ALERT_MSG" = "对不起，根据算法和定位判断，您确定本次是真实飞行吗？";
+
+"FD_EXPORT_MENU_TITLE" = "导出分享到？";
+"FD_EXPORT_MENU_SOCIAL_MEDIA" = "社交媒体";
+"FD_EXPORT_MENU_GPX" = ".GPX 文件";
+"FD_EXPORT_MENU_IGC" = ".IGC 文件";
+"FD_EXPORT_MENU_CSV" = ".CSV 文件";
+"FD_EXPORTING_FLIGHT" = "文件导出中...";
+
+"FD_BASIC_STATS_HEADER" = "基础数据";
+"FD_VERTICAL_STATS_HEADER" = "垂直数据";
+"FD_PILOT_STATS_HEADER" = "飞行员数据";
+"FD_EQUIPMENT_HEADER" = "设备及人员";
+"FD_NOTES_HEADER" = "笔记";
+
+// Basic stats
+"FD_TAKEOFF" = "起飞时间";
+"FD_DURATION" = "时长";
+"FD_MAX_GROUND_SPEED" = "最快速度";
+"FD_AVG_GROUND_SPEED" = "平均速度";
+"FD_LANDING_TIME" = "降落时间";
+"FD_DISTANCE" = "飞行距离";
+"FD_MIN_GROUND_SPEED" = "最慢速度";
+
+// Vertical stats
+"FD_START_ALTITUDE" = "起飞高度";
+"FD_MAX_CLIMB_RATE" = "最大上升";
+"FD_MAX_ALTITUDE" = "最高高度";
+"FD_UPLIFT" = "上升高度";
+"FD_LIFT_START_TO_END" = "起降高度";
+"FD_LANDING_ALTITUDE" = "降落高度";
+"FD_MAX_SINK_RATE" = "最大下沉";
+"FD_MIN_ALTITUDE" = "最低高度";
+"FD_DOWNLIFT" = "下降高度";
+
+// Pilot stats
+"FD_MAX_GLIDE_RATIO" = "最大滑翔比";
+"FD_AVG_GLIDE_RATIO" = "平均滑翔比";
+"FD_MIN_GLIDE_RATIO" = "最小滑翔比";
+
+// Equipment & Crew
+"FD_EQUIPMENT_CREW" = "飞行员";
+"FD_EQUIPMENT_GLIDER" = "滑翔伞";
+
+// Flight source (origin)
+"FD_RECORDED_BY_WINGMAN" = "飞行记录 by Wingman";
+"FD_IMPORTED_GPX" = "从GPX文件导入";
+"FD_IMPORTED_IGC" = "从IGC文件导入";
+
+// Share flight button
+"FD_SHARE_FLIGHT_BUTTON" = "将飞行记录分享给朋友们";
+
+/* EQUIPMENT & CREW VC */
+"EC_TITLE" = "飞行员及装备";
+"EC_DEFAULT_SETTINGS_LABEL" = "为每个新的飞行记录的设置默认值";
+"EC_PILOT_HEADER" = "飞行员";
+"EC_PILOT_NAME" = "姓名";
+"EC_COPILOT_NAME" = "副驾";
+"EC_COPILOT_PLACEHOLDER" = "暂无";
+
+"EC_GLIDER_HEADER" = "滑翔伞";
+"EC_MANUFACTURER" = "制造商";
+"EC_MODEL" = "型号";
+"EC_TYPE" = "类型";
+"EC_OTHER_EQUIPMENT" = "其他设备";
+
+"EC_GLIDER_TYPE_PARAGLIDER" = "滑翔伞";
+"EC_GLIDER_TYPE_PARAMOTOR" = "动力伞";
+"EC_GLIDER_TYPE_HANGGLIDER" = "悬挂式滑翔机";
+"EC_GLIDER_TYPE_RIGIDWING" = "固定翼";
+"EC_GLIDER_TYPE_GLIDER" = "滑翔机";
+"EC_GLIDER_TYPE_ULTRALIGHTAIRCRAFT" = "超轻飞机";
+"EC_GLIDER_TYPE_HOTAIRBALLOON" = "热气球";
+"EC_GLIDER_TYPE_OTHER" = "其他";
+
+/* CHARTS */
+"CHARTS_VC_TITLE" = "飞行图表";
+"CHARTS_REQUIRE_IOS16" = "图表展示最低需要iOS 16支持";
+"CHARTS_GROUND_SPEED" = "地速";
+"CHARTS_ALTITUDE" = "高度";
+"CHARTS_DROP_RATE" = "下沉率";
+"CHARTS_GLIDE_RATIO" = "滑翔比";
+
+/* MAP DETAILS */
+"MAPD_VC_TITLE" = "飞行地图";
+"MAPD_HORIZONTAL_SPEED" = "水平速度";
+"MAPD_VERTICAL_SPEED" = "掉高速度";
+
+/* SOCIAL MEDIA EXPORT */
+"SME_VC_TITLE" = "分享飞行日志";
+"SME_ADJUST_MAP" = "拖动/捏合来调整地图展示";
+"SME_MAP_STYLE" = "地图风格";
+"SME_SPEED" = "速度";
+"SME_DESIGN" = "设计";
+"SME_CHANGE_COLOR" = "修改颜色";
+"SME_CONTINUE_BUTTON" = "继续";
+"MAP_STYLE_STANDARD" = "标准";
+"MAP_STYLE_SATELLITE" = "卫星";
+"MAP_STYLE_HYBRID" = "混合";
+"SPEED_TYPE_HORIZONTAL" = "水平";
+"SPEED_TYPE_VERTICAL" = "掉高";
+
+/* PREFERENCES */
+"PREF_VC_TITLE" = "设置";
+
+"PREF_CONTACT_HEADER" = "联系方式";
+"PREF_CONTACT_LABEL" = "向作者反馈";
+"PREF_CONTACT_SUBLABEL" = "给作者邮件反馈，帮助改进应用的使用体验";
+"PREF_REVIEW_LABEL" = "给个好评";
+"PREF_REVIEW_SUBLABEL" = "好的评论帮助很大，请友好评论🥳🥳🥳";
+"PREF_SHARE_APP_LABEL" = "分享应用";
+"PREF_SHARE_APP_SUBLABEL" = "将本应用分享给你的飞行员朋友们";
+"PREF_TERMS_PRIVACY" = "使用条款和隐私政策";
+
+"PREF_INSTR_HEADER" = "仪表";
+"PREF_INSTR_WIND_LABEL" = "风计算";
+"WIND_HEADING" = "航向";
+"WIND_INSTR_DESCR" = "风向是根据您在飞行过程中的漂移来估计风向和风速。为了使风向表正常工作，请确保您的手机方向正确，即指向您的航向。";
+
+"PREF_INSTR_VARIO_LABEL" = "高度表";
+"VARIO_VC_TITLE" = "高度表";
+"VARIO_CLIMB_HEADER" = "上升";
+"VARIO_CLIMB_FOOTER" = "当您的上升速度高于配置的阈值时，高度表将开始发出类似bb的蜂鸣声，当您的上升速度低于配置的阈值时，高度表将停止蜂鸣声";
+"VARIO_CLIMB_RATE_BIP_LABEL" = "上升提示音阈值";
+"VARIO_CLIMB_RATE_STOP_LABEL" = "上升提示音停止阈值";
+"VARIO_EDIT_VALUE_VC_TITLE" = "编辑高度表设置";
+
+"VARIO_SINK_HEADER" = "下沉";
+"VARIO_SINK_FOOTER" = "当您的下沉速度超过该阈值时，将触发声音警报";
+"VARIO_SINK_RATE_ALARM_LABEL" = "下沉报警阈值";
+
+"VARIO_SOUND_HEADER" = "声音";
+"VARIO_SOUND" = "高度表声音";
+
+"VARIO_SOUND_FREQ_CONFIG_HEADER" = "自定义您的高度表的音色";
+"VARIO_SOUND_FREQ_CONFIG_FOOTER" = "最高（最低）频率是高（低）垂直速度下播放的最大（最小）频率。值越低，声音就越小。";
+"VARIO_SOUND_LOW_FREQ" = "最低频率";
+"VARIO_SOUND_HIGH_FREQ" = "最高频率";
+
+"VARIO_SOUND_CADENCE_CONFIG_HEADER" = "自定义您的高度表的蜂鸣速度";
+"VARIO_SOUND_CADENCE_CONFIG_FOOTER" = "高（低）节奏是声音在高（低）垂直速度下的最大（最小）节奏。该值表示蜂鸣声和暂停的持续时间。因此，较高的值将发出较慢的蜂鸣声。";
+"VARIO_SOUND_LOW_CADENCE" = "最小节奏";
+"VARIO_SOUND_HIGH_CADENCE" = "最大节奏";
+
+"VARIO_SOUND_CONFIG_TEST_HEADER" = "测试高度表声音";
+"VARIO_SOUND_CONFIG_TEST_FOOTER" = "尝试自定义高度表生意（确保手机音量足够高）";
+"VARIO_SOUND_CONFIG_TEST_VERTICAL_SPEED" = "上升速度";
+"VARIO_CONFIG_TEST_PLAY_SOUND" = "播放";
+"VARIO_CONFIG_TEST_STOP_SOUND" = "停止";
+
+"PREF_LANDING_HEADER" = "降落检测";
+"PREF_LANDING_LABEL" = "启用";
+"PREF_LANDING_SUBLABEL" = "自动停止并保存飞行数据";
+
+"PREF_UNIT_HEADER" = "单位";
+"PREF_UNIT_LABEL" = "单位制";
+"UNIT_METRIC" = "公制";
+"UNIT_IMPERIAL" = "英制";
+"UNIT_METRIC_DETAIL" = "公制（米、米/秒...）";
+"UNIT_IMPERIAL_DETAIL" = "英制（英尺、英尺/分钟...）";
+"UNIT_VC_TITLE" = "单位制";
+"UNIT_SECTION_HEADER" = "单位制使用";
+
+"PREF_PILOT_EQUIP_HEADER" = "飞行设备";
+"PREF_PILOT_EQUIP" = "飞行设备";
+"PILOT_EQUIP_VC_TITLE" = "飞行员 & 设备";
+
+"PREF_FOOTER_SUGGESTIONS_WELCOME" = "欢迎提出建议！";
+
+/* IAP & PAYWALL */
+"IAP_VERIF_ERROR_TITLE" = "App Store无法验证您的购买";
+"IAP_RESTORE_ERROR_TITLE" = "无法恢复任何购买";
+"IAP_PRO_ENABLED" = "您正在使用Wingman PRO";
+"IAP_NOTIF_END_TRIAL_TITLE" = "Wingman PRO试用版";
+"IAP_NOTIF_END_TRIAL_BODY" = "您的Wingman PRO试用期将在1.5天后到期";
+"PW_FEATURE_LIST_TITLE" = "重量级新功能";
+"PW_BUTTON_START_TRIAL" = "开启免费体验";
+"PW_BUTTON_BUY" = "继续";
+"PW_ALREADY_PURCHASED" = "已经购买了？";
+"PW_RESTORE" = "恢复";
+"PW_RATINGS_TITLE" = "添加其他飞行员";
+"PW_RATINGS_AVG" = "全球平均评级";
+"PW_3_DAY_TRIAL" = "3天免费试用";
+"PW_SAVE" = "保存";
+"PW_TIMELINE_TITLE" = "您的试用如何进行：";
+"PW_TIMELINE_TODAY" = "今天开始";
+"PW_TIMELINE_TODAY_SUBTITLE" = "免费享受Wingman PRO。与Wingman一起飞行！";
+"PW_TIMELINE_IN_ONE_DAY" = "1.5天内";
+"PW_TIMELINE_IN_ONE_DAY_SUBTITLE" = "免费试用期结束时发起提醒";
+"PW_TIMELINE_IN_THREE_DAYS" = "3天内";
+"PW_TIMELINE_IN_THREE_DAYS_SUBTITLE" = "除非您提前取消，否则将收取费用";
+
+"PW_MINI_TRY_WM_PRO" = "试用Wingman PRO";
+"PW_MINI_SUBTITLE_TRIAL" = "在3天内免费发挥您的最大潜力";
+"PW_MINI_SUBTITLE" = "发挥您的最大潜力";
+"PW_MINI_BUTTON_TRIAL" = "兑换3天试用";
+"PW_MINI_BUTTON" = "了解更多";
+"PW_MINI_THEN" = "然后";
+"PW_MINI_LEARN_MORE" = "了解更多";
+
+"PW_CHARTS_TITLE" = "互动图表";
+"PW_CHARTS_SUBTITLE" = "交互式图表可帮助您分析飞行并改进技术。";
+"PW_CHARTS_REQUIRES_PRO" = "需要Wingman PRO";
+
+"PW_FEATURE_THERMAL_VIEWER" = "热成像仪";
+"PW_FEATURE_VARIO_PRO" = "高度表PRO";
+"PW_FEATURE_INTERACTIVE_CHARTS" = "互动图表";
+"PW_FEATURE_IMPROVE_PILOTING" = "提高你的飞行技术";
+"PW_FEATURE_MORE_COMFORT" = "更舒适";
+"PW_FEATURE_REVIEW_FLIGHTS" = "查看飞行";
+"PW_FEATURE_SHARE" = "分享给您的朋友们";
+"PW_FEATURE_UPDATES" = "享受未来的更新";
+
+/* Marketing */
+"REVIEW_PROMPT_TITLE" = "喜欢Wingman吗？";
+"REVIEW_PROMPT_MSG" = "如果您喜欢该应用，请留下好评来帮助我好吗？ 🙏🏻🙏🏻🙏🏻";
+"SHARE_APP_TEXT" = "我正在使用Wingman，它是一个非常出色飞行伴侣应用程序，它可以配合多种飞行器使用（包括：滑翔伞、动力伞、悬挂式滑翔、固定翼、滑翔机、超轻飞机、热气球等等。。。）。它的飞行仪表和日志对我的飞行技术分析和提高简直超级有用。";
+
+/* Onboarding */
+"OB_WELCOME_TO" = "欢迎来到";
+"OB_WELCOME_IMPROVE" = "提高您的飞行技术";
+"OB_WELCOME_ENJOY_MORE" = "更加享受您的飞行";
+"OB_WELCOME_ANALYZE" = "分析并重温您的飞行";
+"OB_WELCOME_USE_OWN_RISKS" = "使用风险自负";
+"OB_WELCOME_RISK_DESCRIPTION" = "本应用程序仅在飞行期间为您提供帮助，但使用风险需您自己承担。空中飞行，要保持清醒的头脑和对大自然的敬畏之心。 请不要完全依赖仪器仪表。因为电子的东西可能会发生技术错误（包括：信号错误、软件/硬件错误等等）。通过使用本应用程序，您同意自行承担使用它的风险。作者不对可能发生的任何事情负责。 祝您平安飞行！";
+
+"OB_ONE_MORE_THING" = "还有";
+"OB_FLY_QUESTION" = "您将携带什么飞行？";
+
+"OB_ONE_LAST_THING" = "最后";
+"OB_IMPROVE_PREPARATION" = "完善你的起飞准备工作";
+"OB_ENABLE_NOTIF_REASON" = "规划您的飞行，打开通知来获取定制提醒。";
+"OB_ENABLE_NOTIF_BUTTON_TITLE" = "打开通知";
+"OB_NO_THANKS_BUTTON_TITLE" = "不需要，谢谢";
+"OB_PW_TRIAL_TEXT" = "您可以免费试用三天Wingman PRO。";
+"OB_PW_NO_TRIAL_TEXT" = "与Wingman PRO一起发挥您的最大潜力。";
+"OB_PW_3_DAYS_FREE" = "3天试用";
+
+/* Whats New */
+"WN_WELCOME_TO" = "欢迎来到";
+"WN_WHATS_NEW_IN_VERSION" = "Wingman新功能 v";
+"WN_NEW_FEATURES_V2" = "• 热成像仪\n• 自定义高度表提示音\n• 分享您的飞行数据";
+"WN_FEEDBACK_WELCOME_TITLE" = "欢迎反馈！";
+"WN_FEEDBACK_WELCOME_SUBTITLE" = "我在这个应用上做了很多工作，并且已经在其中添加了很多功能。 但如果您错过了某些内容，请在应用程序内与我联系（“设置” > “联系我”），我很乐意讨论并添加新功能！";
+"WN_USE_AT_YOUR_OWN_RISK" = "使用风险自负";
+"WN_RISK_WARNING_DESCRIPTION" = "本应用程序仅在飞行期间为您提供帮助，但使用风险需您自己承担。空中飞行，要保持清醒的头脑和对大自然的敬畏之心。 请不要完全依赖仪器仪表。因为电子的东西可能会发生技术错误（包括：信号错误、软件/硬件错误等等）。通过使用本应用程序，您同意自行承担使用它的风险。作者不对可能发生的任何事情负责。 祝您平安飞行！";
+"WN_CONTINUOUS_UPDATES_TITLE" = "持续更新";
+"WN_CONTINUOUS_UPDATES_SUBTITLE" = "在您的反馈的帮助下，本应用将不断改进，越用越上手";
